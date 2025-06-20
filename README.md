@@ -1,22 +1,21 @@
-# Sample Event Driven Microservice App using Spring Cloud Stream!
+# Sample Event-Driven Microservice App Using Spring Cloud Stream
 
-Hi! I'm Emmanuel and this repo I have two springboot applications that uses the Spring cloud stream Apache kafka messaging solution for event driving microservices. I hope this example app will help you get started.
+this repository, I have two Spring Boot applications that utilize the Spring Cloud Stream Apache Kafka messaging solution for event-driven microservices. I hope this example app will help you get started!
 
+## Important
 
-# Important
+Before you get started, please ensure that you have installed Zookeeper and Apache Kafka on your system or via Docker. Please see the link below for a detailed explanation on how to achieve this:
 
-before you get started please ensure that you have install zookeeper and apache kafka on your system or via docker. Please see the link below to that eloquently explains how to achieve this. [# How to Install Apache Kafka Using Docker — The Easy Way](https://towardsdatascience.com/how-to-install-apache-kafka-using-docker-the-easy-way-4ceb00817d8b)
+### [How to Install Apache Kafka Using Docker — The Easy Way](https://example.com)
 
-# Create a broker
-A broker is simple the machine (typically a VM) where your topics are going to reside. Therefore, you will need to first create a broker and use the host and port number in the configuration of your producer and consumer applications. I did mine in  the "application.yml" file i created i the resource folder of each of my microservices.
+## Create a Broker
 
+A broker is simply the machine (typically a VM) where your topics will reside. You'll need to create a broker and use the host and port number in the configuration of your producer and consumer applications. I configured mine in the `application.yml` file located in the resource folder of each microservice.
 
+## Create Your Topic
 
-# Create your topic
-A topic in kafka is kinda like a log file where all your events once published will be apended and can subsequently be consumed by a consumer application. Therefore, you will need to create a topic.
+A topic in Kafka is like a log file where all your events, once published, will be appended and can subsequently be consumed by a consumer application. Therefore, you will need to create a topic.
 
-# Good to go :)
+## Good to Go! 
 
-
-```
-
+You're all set to explore the event-driven architecture with Spring Cloud Stream and Kafka. Happy coding!
